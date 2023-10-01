@@ -7,25 +7,25 @@ This Python script allows you to convert a GIF file into a series of PNG images,
 Before using this script, ensure you have the following:
 
 - Python installed on your system. You can download it from [python.org](https://www.python.org/downloads/).
-- The Pillow (PIL) library installed. You can install it using `pip`:
-        ```bash
-        pip install pillow
-        ```
+- The Pillow (PIL) library installed. You can install it using `pip`:<br>
+```bash
+pip install pillow
+```
 
 
 ## Usage
 
-1. Clone this repository to your local machine or download the `gif_to_png_converter.py` script.
+1. Clone this repository to your local machine or download the `giftopng.py` script.
 
 2. Open your terminal or command prompt.
 
 3. Navigate to the directory where the script is located.
 
-4. Run the script by entering the following command:
+4. Run the script by entering the following command:<br>
 
-
-python gif_to_png_converter.py
-
+```bash
+python giftopng.py
+```
 
 5. Follow the prompts to provide the path to the GIF file you want to convert and the output folder where the PNG images will be saved.
 
@@ -35,12 +35,12 @@ python gif_to_png_converter.py
 
 ## Example
 
-Suppose you have a GIF file named `example.gif` and you want to convert it into PNG images. Here's how you would use the script:
+Suppose you have a GIF file named `example.gif` and you want to convert it into PNG images. Here's how you would use the script:<br>
 
-Enter the path to the GIF file: path/to/example.gif
-Enter the path to the output folder: path/to/output
+Enter the path to the GIF file: path/to/example.gif<br>
+Enter the path to the output folder: path/to/output<br>
 
-
+<br>
 The script will convert `example.gif` into a sequence of PNG images in the `output` folder.
 
 ## License
